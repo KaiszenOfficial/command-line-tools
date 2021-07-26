@@ -1,0 +1,16 @@
+{
+  "name": "file-encryptor",
+  "version": "1.0.0",
+  "description": "Command line tool to encrypt and decrypt text files.",
+  "main": "main.js",
+  "scripts": {
+    "start": ""
+  },
+  "author": "Supratik Roy",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^8.0.0",
+    "nanoid": "^3.1.23"
+  }
+}
