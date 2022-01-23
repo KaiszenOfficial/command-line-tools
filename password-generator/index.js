@@ -16,4 +16,5 @@ const { length, numbers, symbols } = commander.opts();
 
 const password = passwordManager.generate(length, numbers, symbols);
 
-console.log(chalk.green("Generated Password: ") + chalk.bold(password));
+console.log(chalk.blue('password generated...'));
+console.log(chalk.inverse(password));
